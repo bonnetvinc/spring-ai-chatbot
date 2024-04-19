@@ -1,0 +1,8 @@
+POST http://localhost:8080/chat
+
+{message:"super je veux la supprimer"}
+
+### Flux
+POST http://localhost:8080/chatFlux
+
+{message:"i want to buy a car"}
