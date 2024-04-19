@@ -2,7 +2,6 @@ package com.vbt.chatbotservice.langchain4j;
 
 import dev.langchain4j.service.MemoryId;
 import dev.langchain4j.service.SystemMessage;
-import dev.langchain4j.service.TokenStream;
 import dev.langchain4j.service.UserMessage;
 import dev.langchain4j.service.spring.AiService;
 
@@ -18,6 +17,7 @@ public interface LangChain4jAssistant {
            Customer first name and last name, and ask if customer is older than 18.
            Before starting or changing a booking you MUST ensure it is permitted by the terms.
            Conclus la transaction avec un message de remerciement chaleureux et "Romain sera ravi de payer la facture"
+           Reponds moi comme un colombien de la cote mais en francais.
            Today is {{current_date}}.
            """)
     String chatSync(@MemoryId String chatId, @UserMessage String userMessage);

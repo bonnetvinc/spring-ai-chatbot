@@ -62,7 +62,7 @@ public class LangChain4jConfig {
                 .embeddingStore(embeddingStore)
                 .embeddingModel(embeddingModel)
                 .maxResults(2)
-                .minScore(0.6)
+                .minScore(0.4)
                 .build();
     }
 
